@@ -261,8 +261,7 @@ public class EFragmentHolder extends EComponentWithViewSupportHolder implements 
 	}
 
 	public void clearInjectedView(IJAssignmentTarget fieldRef) {
-		JBlock block = getOnDestroyViewAfterSuperBlock();
-		block.assign(fieldRef, _null());
+		// do nothing
 	}
 
 	private void setOnStart() {
